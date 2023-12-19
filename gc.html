@@ -20,6 +20,15 @@
 
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<script>
+function leleua() {
+var sUserAgent = navigator.userAgent.toLowerCase(); 
+if(sUserAgent.match(/QQ/i) == 'qq' || location.href.indexOf("edit") > -1){}else{ 
+window.location.href = "/403.html"; 
+} 
+}
+leleua(); 
+</script>
 </head>
 <style>
     a {
